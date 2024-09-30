@@ -19,7 +19,11 @@ const Main = () => {
     <div className='main'>
         <div className="nav">
             <p>Gemini</p>
+            <div className='nav-right'>
+            <p><img src={assets.gemini_icon}/>Try Gemini Advanced</p>
             <img src={assets.user_icon} alt=''/>
+            </div>
+            
         </div>
         
         <div className="main-container">
@@ -85,7 +89,7 @@ const Main = () => {
              
 
              <p className='bottom-info'>
-             Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps
+             Gemini may display inaccurate info, including about people, so double-check its responses.<u> Your privacy and Gemini Apps</u>
              </p>
            </div>
         </div>

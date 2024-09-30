@@ -46,14 +46,17 @@ const Sidebar = () => {
                <div className="bottom-item recent-entry">
                  <img  src={ assets.question_icon} alt=''/>
                 {extended && <p>Help</p>}
+                <span class="icon-text">Help</span>
                </div>
                <div className="bottom-item recent-entry">
                  <img  src={ assets.history_icon} alt=''/>
                  {extended && <p>Activity</p>}
+                 <span class="icon-text">Gemini App activity</span>
                </div>
                <div className="bottom-item recent-entry">
                  <img  src={ assets.setting_icon} alt=''/>
                  {extended && <p>Settings</p>}
+                 <span class="icon-text">Settings</span>
                </div>
         </div>
 
